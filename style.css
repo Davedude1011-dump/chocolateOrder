@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.welcome_area {
+    position: relative;
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(200, 200, 200);
+}
+
+
+.user_area {
+    position: relative;
+    width: 100vw;
+    height: 20vh;
+    background-color: rgb(150, 150, 150);
+    display: flex;
+    justify-content: space-between;
+}
+.user_selection {
+    position: relative;
+    top: 50%;
+    translate: 0 -50%;
+    height: 20vw;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+    background-color: white;
+    border: grey 3px solid;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+.dad_selection {
+    position: relative;
+    width: 60%;
+    aspect-ratio: 1/1;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg width='512px' height='512px' viewBox='-160 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M96 0c35.346 0 64 28.654 64 64s-28.654 64-64 64-64-28.654-64-64S60.654 0 96 0m48 144h-11.36c-22.711 10.443-49.59 10.894-73.28 0H48c-26.51 0-48 21.49-48 48v136c0 13.255 10.745 24 24 24h16v136c0 13.255 10.745 24 24 24h64c13.255 0 24-10.745 24-24V352h16c13.255 0 24-10.745 24-24V192c0-26.51-21.49-48-48-48z'/%3E%3C/svg%3E");
+}
+.mom_selection {
+    position: relative;
+    width: 80%;
+    aspect-ratio: 1/1;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='100px' height='100px' viewBox='0 0 100 100' enable-background='new 0 0 100 100' xml:space='preserve'%3E%3Cg%3E%3Ccircle fill='%23231F20' cx='49.244' cy='20.203' r='8.2'/%3E%3Cpath fill='%23231F20' d='M72.147,54.101l-5.47-20.414c-0.003-0.016-0.009-0.031-0.013-0.047l-0.096-0.359l-0.014,0.004 c-0.499-1.556-1.94-2.69-3.662-2.69c-0.013,0-0.026,0.004-0.039,0.004v-0.071H37.108v0.067c-1.722,0-3.163,1.134-3.662,2.69 l-0.014-0.004l-0.096,0.358c-0.004,0.017-0.01,0.032-0.013,0.049l-5.47,20.413l0.052,0.014c-0.025,0.169-0.052,0.337-0.052,0.513 c0,1.924,1.56,3.485,3.485,3.485c1.474,0,2.727-0.919,3.236-2.212l0.024,0.006l4.013-14.974v0.057h0.031 c0.11-0.493,0.529-0.869,1.054-0.869c0.526,0,0.945,0.377,1.055,0.869h0.033v0.161c0.002,0.025,0.014,0.046,0.014,0.071 s-0.013,0.046-0.014,0.071v0.153L34.36,65.424c-0.104,0.211-0.167,0.442-0.184,0.688l-0.014,0.051l0.008,0.002 c-0.001,0.027-0.008,0.053-0.008,0.081c0,1.033,0.838,1.87,1.871,1.87h4.751v15.849c0,2.226,1.805,4.032,4.032,4.032 c2.227,0,4.032-1.805,4.032-4.032l0-15.849h2.293v15.849c0,2.226,1.806,4.032,4.033,4.032c2.227,0,4.032-1.805,4.032-4.032V68.116 h4.765c1.033,0,1.871-0.837,1.871-1.87c0-0.028-0.007-0.054-0.008-0.081l0.008-0.002l-0.014-0.051 c-0.018-0.246-0.081-0.477-0.184-0.688L59.24,41.52l0.021-0.006c-0.027-0.095-0.059-0.188-0.059-0.291 c0-0.608,0.493-1.102,1.102-1.102c0.518,0,0.932,0.365,1.05,0.847l0.042-0.011l4.006,14.951l0.024-0.006 c0.509,1.293,1.762,2.212,3.236,2.212c1.925,0,3.485-1.561,3.485-3.485c0-0.176-0.027-0.344-0.052-0.513L72.147,54.101z'/%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+
+.chocolate_selection_area {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 25vh;
+    background-color: rgb(100, 100, 100);
+}
+
+.chocolate_input {
+    position: relative;
+    top: 50%;
+    translate: 0 -50%;
+    background-color: rgb(151, 151, 151);
+    border: rgb(200, 200, 200) 3px solid;
+    border-radius: 20px;
+    height: 15vw;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+.chocolate_input:hover {
+    border: gold 3px solid;
+}
+
+.input_img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    width: 80%;
+    aspect-ratio: 1/1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.twix_img {
+    background-image: url("images/twix.png");
+}
+.lion_img {
+    background-image: url("images/lion.png");
+}
+.mars_img {
+    background-image: url("images/mars.png");
+}
+
+
+.amount_area {
+    position: relative;
+    width: 100vw;
+    height: 25vh;
+    background-color: rgb(51, 51, 51);
+}
+.down_outer {
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+    background-color: rgb(151, 151, 151);
+    border: rgb(200, 200, 200) 3px solid;
+    border-radius: 20px;
+    height: 15vw;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-left: 5vw;
+}
+.down {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    width: 80%;
+    aspect-ratio: 1/1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("data:image/svg+xml,%3Csvg width='48px' height='48px' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='48' height='48' fill='white' fill-opacity='0.01'/%3E%3Cpath d='M37 18L25 30L13 18' stroke='white' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+}
+.counter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    color: white;
+    font-size: 3rem;
+    font-family: Noto Nastaliq Urdu;
+}
+.up_outer {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    translate: 0 -50%;
+    background-color: rgb(151, 151, 151);
+    border: rgb(200, 200, 200) 3px solid;
+    border-radius: 20px;
+    height: 15vw;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-right: 5vw;
+}
+.up {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    width: 80%;
+    aspect-ratio: 1/1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("data:image/svg+xml,%3Csvg width='48px' height='48px' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='48' height='48' fill='white' fill-opacity='0.01'/%3E%3Cpath d='M13 30L25 18L37 30' stroke='white' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+}
+
+
+
+.submit_area {
+    position: relative;
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(30, 30, 30);
+}
+.submit {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    width: 40vw;
+    aspect-ratio: 4/1;
+    border: none;
+    border-radius: 20px;
+}
+.submit_text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    font-size: 18px;
+    font-family: Quicksand;
+    font-weight: bold;
+}

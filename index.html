@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="function.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <div class="welcome_area">
+
+        </div>
+        
+        <div class="user_area">
+            <div class="user_selection" id="dad" onclick="setPerson(this.id)">
+                <div class="dad_selection"></div>
+            </div>
+            <div class="user_selection" id="mom" onclick="setPerson(this.id)">
+                <div class="mom_selection"></div>
+            </div>
+        </div>
+        
+        <div class="chocolate_selection_area">
+            <div class="chocolate_input twix" id="twix" onclick="setChocolate(this.id)">
+                <div class="input_img twix_img"></div>
+            </div>
+            <div class="chocolate_input lion" id="lion" onclick="setChocolate(this.id)">
+                <div class="input_img lion_img"></div>
+            </div>
+            <div class="chocolate_input mars" id="mars" onclick="setChocolate(this.id)">
+                <div class="input_img mars_img"></div>
+            </div>
+            <!--
+            <div class="chocolate_input lion" id="lion" onclick="setChocolate(this.id)">
+                <div class="input_img lion_img"></div>
+            </div>
+            -->
+        </div>
+        
+        <div class="amount_area">
+            <div class="down_outer" onclick="amountDown()">
+                <div class="down"></div>
+            </div>
+
+            <div class="counter">1</div>
+
+            <div class="up_outer" onclick="amountUp()">
+                <div class="up"></div>
+            </div>
+        </div>
+        
+        <div class="submit_area">
+            <form action="https://formsubmit.co/chocolate.custom.order@gmail.com" method="POST">
+
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://davedude1011.github.io/chocolateOrder">
+                <input type="hidden" name="_subject" value="New Order!">
+
+                <input id="name" type="text" name="name" value="No Name Given" style="display: none">
+                <input id="msg" type="text" name="message" value="No Bar Selected" style="display: none">
+                <input id="amount" type="text" name="amount" value="1" style="display: none">
+    
+                <button type="submit" class="submit" onclick="timeStamp()">
+                    <div class="submit_text">Order</div>
+                </button>
+            </form>
+        </div>
+        
+    </body>
+</html>
